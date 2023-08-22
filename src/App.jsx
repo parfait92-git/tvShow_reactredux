@@ -61,7 +61,7 @@ function App() {
       <div className={s.header}>
         <div className="row">
           <div className="col-4">
-            <Logo image={logo} title="WhatToWatch" subtitle="Find a show you may like" />
+            <Logo image={logo} title="CGI-Break_TUBE" subtitle="Find a show you may like" />
           </div>
           <div className="col-sm-12 col-md-4">
             <SearchBar onSubmit={searchTvSHow} />
