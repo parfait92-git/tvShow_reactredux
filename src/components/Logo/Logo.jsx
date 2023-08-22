@@ -7,7 +7,7 @@ export const Logo = ({image, title, subtitle}) => {
         <>
         <div className={s.conatainer}>
             <img className={s.img} src={image} alt={title}/>
-            <span className={s.title}> <span className={s.start-title}> {startTitle} </span> {restTitle} </span>
+            <span className={s.title}> <span className={s.start_title}> {startTitle} </span> {restTitle} </span>
         </div>
         <span className={s.subtitle}>{subtitle} </span>
         </>
