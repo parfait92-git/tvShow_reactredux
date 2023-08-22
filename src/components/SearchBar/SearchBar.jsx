@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import s from './SearchBar.module.css'
 import { Search as SearchIcon } from 'react-bootstrap-icons'
 

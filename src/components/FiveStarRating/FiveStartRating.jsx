@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import s from './FiveStarRating.module.css'
 import { StarFill, Star as StarEmpty, StarHalf } from 'react-bootstrap-icons';
 export const FiveStartRating = ({rating}) => {

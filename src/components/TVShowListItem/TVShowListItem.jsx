@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import s from './TVShowListItem.module.css'
 import { SMALL_IMG_COVER_BASE_URL } from '../../shared/services/config';
 export const TVShowListItem = ({tvShow, onClickTV}) => {
