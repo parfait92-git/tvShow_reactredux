@@ -1,0 +1,29 @@
+.title{
+    font-family: Roboto;
+    font-weight: 60px;
+    font-size: 20px;
+}
+.cantainer:hover {
+    overflow-x: overlay;
+}
+.cantainer {
+    position: relative;
+    width: 100vw -25px;
+    overflow: hidden;
+    height: 25vh;
+    padding-bottom: 30px;
+}
+.list {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+}
+
+.tv_show_list_item {
+    margin-right: 20px;
+}
+
+body > .list:hover {
+    scrollbar-width: 2px !important;
+    scrollbar-color: #999 #f1f1f1;
+}
